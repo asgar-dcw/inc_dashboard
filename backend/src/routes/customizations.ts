@@ -4,7 +4,7 @@ import {
   getPopularCustomizations,
   getCustomizationTrends,
   getCustomizationsByCategory
-} from '../services/queries';
+} from '../services/queries.js';
 
 const router = express.Router();
 

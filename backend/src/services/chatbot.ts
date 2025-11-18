@@ -1,5 +1,5 @@
 import Groq from 'groq-sdk';
-import { executeQuery } from './database';
+import { executeQuery } from './database.js';
 import dotenv from 'dotenv';
 
 dotenv.config();

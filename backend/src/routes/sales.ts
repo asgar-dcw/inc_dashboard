@@ -6,9 +6,9 @@ import {
   getCategoryPerformance,
   getHourlySales,
   getSalesFilterOptions
-} from '../services/queries';
-import { executeQuery } from '../services/database';
-import pool from '../services/database';
+} from '../services/queries.js';
+import { executeQuery } from '../services/database.js';
+import pool from '../services/database.js';
 
 const router = express.Router();
 

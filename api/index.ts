@@ -4,16 +4,16 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import express from 'express';
 import cors from 'cors';
-import { testConnection } from '../backend/src/services/database';
+import { testConnection } from '../backend/src/services/database.js';
 
 // Import routes
-import salesRoutes from '../backend/src/routes/sales';
-import productsRoutes from '../backend/src/routes/products';
-import customersRoutes from '../backend/src/routes/customers';
-import customizationsRoutes from '../backend/src/routes/customizations';
-import dashboardRoutes from '../backend/src/routes/dashboard';
-import intelligenceRoutes from '../backend/src/routes/intelligence';
-import chatbotRoutes from '../backend/src/routes/chatbot';
+import salesRoutes from '../backend/src/routes/sales.js';
+import productsRoutes from '../backend/src/routes/products.js';
+import customersRoutes from '../backend/src/routes/customers.js';
+import customizationsRoutes from '../backend/src/routes/customizations.js';
+import dashboardRoutes from '../backend/src/routes/dashboard.js';
+import intelligenceRoutes from '../backend/src/routes/intelligence.js';
+import chatbotRoutes from '../backend/src/routes/chatbot.js';
 
 // Create Express app
 const app = express();

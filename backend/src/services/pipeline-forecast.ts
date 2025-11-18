@@ -1,4 +1,4 @@
-import { executeQuery } from './database';
+import { executeQuery } from './database.js';
 
 interface HistoricalPoint {
   date: string;

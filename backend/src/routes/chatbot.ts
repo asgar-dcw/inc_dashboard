@@ -1,5 +1,5 @@
 import express from 'express';
-import { processChatbotQuery } from '../services/chatbot';
+import { processChatbotQuery } from '../services/chatbot.js';
 
 const router = express.Router();
 

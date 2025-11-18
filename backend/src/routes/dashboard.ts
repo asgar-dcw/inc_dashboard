@@ -6,7 +6,7 @@ import {
   getCustomerOverview,
   getCustomizationMetrics,
   getSalesFilterOptions,
-} from '../services/queries';
+} from '../services/queries.js';
 
 const router = express.Router();
 

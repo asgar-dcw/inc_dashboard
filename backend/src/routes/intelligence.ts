@@ -1,7 +1,7 @@
 import express from 'express';
-import advancedQueries from '../services/advanced-queries';
-import advancedQueries2 from '../services/advanced-queries-part2';
-import pipelineForecast from '../services/pipeline-forecast';
+import advancedQueries from '../services/advanced-queries.js';
+import advancedQueries2 from '../services/advanced-queries-part2.js';
+import pipelineForecast from '../services/pipeline-forecast.js';
 
 const router = express.Router();
 

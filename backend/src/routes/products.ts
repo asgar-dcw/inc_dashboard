@@ -5,7 +5,7 @@ import {
   getSearchAnalytics,
   getProductMetrics,
   getTopViewedNotPurchased
-} from '../services/queries';
+} from '../services/queries.js';
 
 const router = express.Router();
 
