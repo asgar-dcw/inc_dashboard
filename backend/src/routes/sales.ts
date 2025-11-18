@@ -43,7 +43,7 @@ router.get('/top-products-test2', async (req, res) => {
       LIMIT ${limit}
     `;
     
-    const [results] = await pool.query(query);
+    const [results] = await pool.query<any[]>(query);
     res.json({ 
       success: true, 
       count: results.length,
